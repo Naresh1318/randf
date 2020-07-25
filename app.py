@@ -13,7 +13,7 @@ class CustomFlask(Flask):
 
 
 app = CustomFlask(__name__)
-db_path = "choices.json"
+db_path = "data/choices.json"
 
 
 class ComplexDB:
