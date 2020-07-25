@@ -7,8 +7,8 @@
 
 # Example
 <p align=center>
-    <img src="" alt="randf"/>
-    <p align="center"> <b></b> </p>
+    <img src="https://files.naresh1318.com/public/randf/randf_screenshot.png" alt="randf"/>
+    <p align="center"> <b>Website</b> </p>
 </p>
 
 # Install
