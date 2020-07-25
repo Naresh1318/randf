@@ -19,11 +19,11 @@ docker build -t randf:latest .
 
 2. Run container
 ```bash
-docker run -v <path to randf/data>:/randf/data -p <PORT>:5000 -d randf:latest
+docker run -v <path to randf/data>:/randf/data -p <PORT>:5000 -d --name randf randf:latest
 ```
 
 Example:
 ```bash
-docker run -v /Users/naresh/Projects/randf/data:/randf/data -p 4000:5000 -d randf:latest
+docker run -v /home/naresh/Projects/randf/data:/randf/data -p 5005:5000 -d --name randf randf:latest
 ```
 
